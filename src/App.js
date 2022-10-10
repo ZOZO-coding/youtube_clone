@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Box } from '@mui/material';
 
 // import components (remember to create an index file inside components folder and export the components)
-import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';
+import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './components';
 
 const App = () => {
     return (
