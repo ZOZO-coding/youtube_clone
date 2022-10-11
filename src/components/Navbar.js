@@ -1,5 +1,5 @@
 // stack for 1-d layout, grid for 2-d
-import { Stack } from '@mui/material'
+import { Stack, Typography } from '@mui/material'
 import { Link } from  'react-router-dom';
 
 import { logo } from '../utils/constants';
@@ -15,6 +15,9 @@ const Navbar = () => {
         >
             <Link to='/' style={{ display: 'flex', alignItems: 'center'}}>
                 <img src={logo} alt='logo' height={45} />
+                <Typography variant='h4' sx={{ color: 'white'}} >
+                    ZoZoTube
+                </Typography>
             </Link>
             <SearchBar />
         </Stack>
